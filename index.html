@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-2">Gamakay Sushi</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav navbar-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-restaurante" class="nav-link"><i class="bi bi-house-door me-1"></i>Sobre o restaurante</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link"><i class="bi bi-house-door me-1"></i>Eventos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link"><i class="bi bi-house-door me-1"></i>Nosso cardápio</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link"><i class="bi bi-house-door me-1"></i>Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-restaurante">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner" >
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slides/sashimi-1879676_1920.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/japanese-food-4985165_1920.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/sushi-2853382_1920.jpg" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="rounded w-100" src="images/evento/japanese-2596879_1280.jpg" alt="">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2><span class="section-title">Sobre <span class="text-colored">o restaurante</span></span></h2>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates exercitationem, natus, ipsa quasi recusandae id reiciendis sit assumenda ullam, at aut esse necessitatibus harum libero animi quis ex vitae inventore.
+                            </p>
+                            <h2><span class="section-title">Sobre <span class="text-colored">o espaço</span></span></h2>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates exercitationem, natus, ipsa quasi recusandae id reiciendis sit assumenda ullam, at aut esse necessitatibus harum libero animi quis ex vitae inventore.
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos">
+            <div>
+                <div class="container">
+                    <h2 class="section-title text-center p-4">Para todas <span class="text-colored">ocasiões</span></h2>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="w-100 rounded mb-3" src="images/evento/aniversario.jpg" alt="">
+                            <h3 class="section-title text-colored fs-4"><i class="bi bi-calendar-heart-fill"></i> Aniversários</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa nemo soluta odio possimus atque necessitatibus? Eum, corrupti voluptatum? Praesentium hic laudantium adipisci ab odit quod. Ipsa optio molestias nobis veniam?</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="w-100 rounded mb-3" src="images/evento/casamento.jpg" alt="">
+                            <h3 class="section-title text-colored fs-4"><i class="bi bi-calendar-heart-fill"></i> Casamentos</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nobis beatae quaerat ducimus quidem earum repudiandae, aliquid ratione quas recusandae id magni doloribus quia veritatis nesciunt veniam, sed consequuntur repellat.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="w-100 rounded mb-3" src="images/evento/japan-1120376_640.jpg" alt="">
+                            <h3 class="section-title text-colored fs-4"><i class="bi bi-calendar-heart-fill"></i> Confraternizações</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quidem perspiciatis natus. Officia laudantium facilis inventore minima veniam maiores nesciunt sed ipsam deleniti! Neque ab perferendis impedit cupiditate quia explicabo?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pb-5 pt-5">
+            <div class="container">
+                <h2 class="section-title text-center mb-5">Nosso <span class="text-colored">cardápio</span></h2>
+                <div class="row">
+                    <div class="col-md-2">
+                        <aside>
+                            <nav class="nav nav-pills flex-column nav-cardapio">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#sushis" class="fw-bold nav-link text-start text-colored active">
+                                    Sushis
+                                </button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#temaki" class="fw-bold nav-link text-start text-colored p-3">
+                                    Temakis
+                                </button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#fritos" class="fw-bold nav-link text-start text-colored p-3">
+                                    Fritos
+                                </button>
+                            </nav>
+                        </aside>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="sushis">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/cardapio/sushi.avif" alt="sushi">
+                                        <h3 class="text-colored fw-bold">Sushi</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/cardapio/sushi.avif" alt="sushi">
+                                        <h3 class="text-colored fw-bold">Sushi</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/cardapio/sushi.avif" alt="sushi">
+                                        <h3 class="text-colored fw-bold">Sushi</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/cardapio/sushi.avif" alt="sushi">
+                                        <h3 class="text-colored fw-bold">Sushi</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="temaki">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/cardapio/temaki.avif" alt="temaki">
+                                        <h3 class="text-colored fw-bold">Temaki</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/cardapio/temaki.avif" alt="temaki">
+                                        <h3 class="text-colored fw-bold">Temaki</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/cardapio/temaki.avif" alt="temaki">
+                                        <h3 class="text-colored fw-bold">Temaki</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/cardapio/temaki.avif" alt="temaki">
+                                        <h3 class="text-colored fw-bold">Temaki</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="fritos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/cardapio/frito.avif" alt="sushi frito">
+                                        <h3 class="text-colored fw-bold">Fritos</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/cardapio/frito.avif" alt="sushi frito">
+                                        <h3 class="text-colored fw-bold">Fritos</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/cardapio/frito.avif" alt="sushi frito">
+                                        <h3 class="text-colored fw-bold">Fritos</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/cardapio/frito.avif" alt="sushi frito">
+                                        <h3 class="text-colored fw-bold">Fritos</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pb-5 pt-5" id="fale-conosco">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" id="nome" class="form-control" name="nome">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="text" id="email" class="form-control" name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label">Telefone (opcional)</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label">Sua mensagem (opcional)</label>
+                            <textarea class="form-control"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <button type="submit" class="btn">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row mb-3">
+                        <h3 class="section-title text-colored">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes Sociais</h3>
+                        <ul class="social-link">
+                            <li>
+                                <a class="fs-3" href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="fs-3 ms-3 me-3" href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="fs-3" href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <h3 class="section-title text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço</h3>
+                        <p>Rua Não sei o que das Flores, nº 134 Bairro Centro - São Paulo - SP</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery.mask.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/messages_pt_BR.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#telefone').mask('(00) 00000-0000', {
+            placeholder: '(__) _____-____'
+        })
+
+        $('form').validate({
+            rules: {
+                nome: {
+                    required: true
+                },
+                email: {
+                    required: true,
+                    email: true
+                }              
+            },
+            messages: {
+                nome: 'Por favor, digite seu nome',
+                email: 'Por favor, digite seu email'
+            },
+            invalidHandler: function(evento, validador){
+                let camposIncorretos = validador.numberOfInvalids();
+                if (camposIncorretos) {
+                    alert(`Existem ${camposIncorretos} campos incorretos`)
+                }
+            }
+        })
+    })
+</script>
+</html>
